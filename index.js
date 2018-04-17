@@ -1,7 +1,7 @@
 const express = require("express");
 const cors = require("cors");
-const index = express();
 const data = require("./data/humans");
+const index = express();
 let PORT = process.env.PORT || 3000;
 
 function findById(data, id){
